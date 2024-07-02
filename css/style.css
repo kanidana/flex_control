@@ -53,6 +53,8 @@ span{
     color: red
 }
 
+/* -------------TEXT---------------- */
+
 h1{
     font-size: 30px;
 }
@@ -61,11 +63,15 @@ p{
     font-size: 18px;
     color: red;
 }
+
+/* -------------IMAGES---------------- */
+
 img{
     width: 50px;
     height: 50px;
 }
 
+/* -------------CONTACTS---------------- */
 
 .Ch4{
     margin-top: 50px;
@@ -73,21 +79,10 @@ img{
     text-decoration: overline;
 }
 
-a{
-    background-color: rgb(242, 215, 215);
-    border-radius: 100px;
-}
-
-a:hover{
-    background-color: black;
-    border: 1px solid red;   
-}
-
-.fa-brands{
+.form{
     width: 30px;
+    height: 30px;
 }
-
-
 /* ---------------------------------LE FOOTER------------------------------------ */
 
 footer{
@@ -95,6 +90,7 @@ footer{
     text-align: center;
     margin-top: 200px;
     font-weight: bold;
+    padding-top:100px ;
 }
 
 h4{
